@@ -1,0 +1,44 @@
+backend:
+  # name: git-gateway
+  name: test-repo
+  branch: master # Branch to update (optional; defaults to master)
+
+media_folder: public/images
+public_folder: images
+show_preview_links: false
+publish_mode: editorial_workflow
+editor:
+  preview: false
+collections:
+  - name: 'Blog'
+    label: 'Blog'
+    description: 'Main Blog Posts.'
+    extension: 'json'
+    format: 'json'
+    files:
+      - label: 'Posts'
+        name: 'posts'
+        file: 'content/posts.json'
+        fields:
+          - label: 'Posts'
+            name: 'posts'
+            widget: 'list'
+            fields:
+              - {
+                  label: 'Title',
+                  name: 'title',
+                  widget: 'string',
+                  required: true,
+                }
+              - {
+                  label: 'Description',
+                  name: 'description',
+                  widget: 'text',
+                  required: true,
+                }
+              - {
+                  label: 'Image',
+                  name: 'image',
+                  widget: 'image',
+                  required: true,
+                }
