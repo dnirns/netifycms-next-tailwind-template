@@ -1,4 +1,4 @@
-#### Started template for NextJS + TailwindCSS + NetlifyCMS
+#### A starter template for NextJS + TailwindCSS + NetlifyCMS
 
 I've put together this basic template for using the Netlify CMS within a NextJS project, along with TailwindCSS.
 
