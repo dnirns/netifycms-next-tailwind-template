@@ -1,13 +1,19 @@
 {
-  "posts": [{
-      "title": "Test Post",
+  "posts": [
+    {
+      "title": "Test Post 1",
       "description": "Dolor exercitation enim reprehenderit consectetur aliquip dolore ut laborum dolore est id non. Labore quis non eu ea velit qui voluptate incididunt et occaecat cillum.",
       "image": "images/1.jpg"
     },
     {
-      "title": "Test Post",
+      "title": "Test Post 2",
       "description": "Eiusmod eiusmod quis elit dolore laboris cillum anim culpa pariatur cupidatat duis. Exercitation enim ipsum ad sunt cillum. Et voluptate in voluptate sunt exercitation et ad aliqua mollit minim cupidatat ad.",
       "image": "images/2.jpg"
+    },
+    {
+      "title": "Test Post from Deployed CMS Admin",
+      "description": "Bacon ipsum dolor amet flank ball tip alcatra buffalo turducken pork chop. Biltong pork belly porchetta, tri-tip ribeye venison chicken filet mignon meatloaf meatball chislic. Ham strip steak chuck prosciutto brisket meatloaf. Meatball pork belly chuck, short ribs jerky chicken biltong picanha porchetta shankle sirloin.",
+      "image": "images/gajendra-moksham-vishnu-painting-tanjore-painting-1-large.jpg"
     }
   ]
 }
